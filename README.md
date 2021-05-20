@@ -4,6 +4,11 @@
 ```
 npm install
 ```
+Для тестирования необходим хост или локальный веб сервер для обработки php скриптов
+
+Команды создания Базы данных (миграция) **migration.sql**
+
+В каталог веб сервера переносится содержимое из папки **cite**
 
 ### Compiles and hot-reloads for development
 ```
@@ -14,6 +19,11 @@ npm run serve
 ```
 npm run build
 ```
+
+При компиляции командой npm run build
+
+результат переносится в папку **cite** с заменой содержимого, 
+затем файл index1.html удаляется, а index.html переименовывается в index1.html
 
 ### Lints and fixes files
 ```
