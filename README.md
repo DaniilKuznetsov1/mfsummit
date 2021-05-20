@@ -19,6 +19,8 @@ npm run build
 ```
 npm run lint
 ```
-
+dan121
+pass235
+pass235
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
